@@ -1,12 +1,9 @@
 #!/usr/bin/env python3
-'''This is the module'''
+'''Task 0's module.
+'''
 
 
-def add(a: float, b:float) -> float:
-    """
-    adds two floating number and returns sum
-
-    param a: is the first floating point number
-    param b: is the second floating point number
-    """
-    return a+b
+def add(a: float, b: float) -> float:
+    '''Adds two floating-point numbers.
+    '''
+    return a + b
